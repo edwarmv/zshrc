@@ -1,5 +1,4 @@
 export PATH=":$HOME/.local/bin:$PATH"
-export PATH=":$HOME/.pub-cache/bin:$PATH"
 export TERMINFO_DIRS=":$HOME/.local/share/terminfo"
 export EXA_COLORS="reset"
 export LSCOLORS="exfxcxdxbxegedabagacad"
