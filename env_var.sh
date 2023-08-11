@@ -1,4 +1,5 @@
 export PATH=":$HOME/.local/bin:$PATH"
+export PATH=":$GOPATH/bin:$PATH"
 export TERMINFO_DIRS=":$HOME/.local/share/terminfo"
 export EXA_COLORS="reset"
 export LSCOLORS="exfxcxdxbxegedabagacad"
