@@ -28,11 +28,27 @@ FZF_DEFAULT_OPTS="
 # "
 
 # tokyonight_storm
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS"
---color=fg:#565f89,bg:#24283b,hl:#2ac3de
---color=fg+:#565f89,bg+:#292e42,hl+:#2ac3de
---color=info:#7aa2f7,prompt:#7aa2f7,pointer:#db4b4b
---color=marker:#9ece6a,spinner:#9ece6a,header:#9ece6a
---color=border:#2ac3de
---color=separator:#2ac3de
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
+  --highlight-line \
+  --info=inline-right \
+  --ansi \
+  --layout=reverse \
+  --border=none
+  --color=bg+:#363d59 \
+  --color=bg:#1f2335 \
+  --color=border:#29a4bd \
+  --color=fg:#565f89 \
+  --color=fg+:#565f89 \
+  --color=gutter:#1f2335 \
+  --color=header:#ff9e64 \
+  --color=hl+:#2ac3de \
+  --color=hl:#2ac3de \
+  --color=info:#545c7e \
+  --color=marker:#ff007c \
+  --color=pointer:#ff007c \
+  --color=prompt:#2ac3de \
+  --color=query:#c0caf5:regular \
+  --color=scrollbar:#29a4bd \
+  --color=separator:#ff9e64 \
+  --color=spinner:#ff007c \
 "
